@@ -1,5 +1,7 @@
 /* Palette sampled from the AXMA product prototype */
 :root{--ink:#434343;--muted:#8E8E8E;--acid:#FF8D28;--line:#D9D9D9;--paper:#F7FAFC;--dark:#2D2D2D}
+/* Keep link arrows in the AXMA palette on mobile, including visited and tapped states. */
+a{-webkit-tap-highlight-color:transparent}.button,.button:visited,.button:hover,.button:active{color:#434343;-webkit-text-fill-color:#434343}.text-link,.text-link:visited,.text-link:hover,.text-link:active{color:#434343;-webkit-text-fill-color:#434343}.button span,.text-link span{color:inherit;-webkit-text-fill-color:currentColor}
 .logo span,.hero h1 em,.intro h2 span,.card-icon,.mini-icon,.role-label{color:#FF8D28}.button:hover{background:#FF9B4F}.eyebrow i,.status i,.progress i,.tag:before,.flow-line i,.floating-note i{background:#FF8D28}
 .hero-visual{background:#FCF6F6}.model-grid{background:linear-gradient(#FFE1CA 1px,transparent 1px),linear-gradient(90deg,#FFE1CA 1px,transparent 1px)}.orb-one{background:#FF8D28}.orb-two{background:#FFE1CA}.axis{background:#D1D1D6}
 .building:before,.building:after{border-color:#525252}.building:before{background:repeating-linear-gradient(0deg,transparent 0 42px,#525252 42px 44px),repeating-linear-gradient(90deg,transparent 0 45px,#525252 45px 47px)}.building:after{background:#D9D9D9}.floor{border-color:#525252}
