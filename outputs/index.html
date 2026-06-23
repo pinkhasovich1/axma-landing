@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AXMA объединяет BIM, ERP и календарно-сетевое планирование в единое цифровое пространство строительства." />
+    <title>AXMA — управление строительством в одном окне</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#top" class="logo" aria-label="AXMA, на главную">AXMA<span>·</span></a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#platform">Платформа</a><a href="#roles">Для команды</a><a href="#how">Как работает</a>
+      </nav>
+      <a href="#demo" class="button button-small">Запросить демо <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> Единая среда управления строительством</p>
+          <h1>Когда у стройки <em>одна</em> версия правды.</h1>
+          <p class="lead">AXMA объединяет BIM‑модель, CRM и ERP. Каждый участник видит только актуальное — и понимает, что делать дальше.</p>
+          <div class="hero-actions"><a href="#demo" class="button">Посмотреть AXMA <span>↗</span></a><a class="text-link" href="#platform">Как это устроено <span>↓</span></a></div>
+          <div class="systems"><span>BIM</span><b>+</b><span>CRM</span><b>+</b><span>ERP</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Схема единой цифровой среды AXMA">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <img class="building-render" src="images/axma-house-hero.png" alt="Объёмная BIM-модель частного дома" />
+          <div class="data-card card-model"><small>Модель строящегося объекта</small><strong>Версия 2.4</strong><span class="status"><i></i> опубликована</span></div>
+          <div class="data-card card-plan"><small>КСГ</small><strong>84% · по плану</strong><div class="progress"><i></i></div></div>
+          <div class="data-card card-alert"><span class="alert-icon">!</span><p><b>Изменены объёмы</b><br>Бетон и арматура · этаж 2</p></div>
+          <div class="cursor">+</div>
+          <div class="tag tag-one">пилон P-17</div><div class="tag tag-two">окно W-04</div>
+          <p class="visual-caption">AXMA · цифровой двойник объекта</p>
+        </div>
+      </section>
+
+      <section class="intro container">
+        <p class="section-number">01 / Зачем AXMA</p>
+        <div><h2>Не передаёт данные между отделами. <span>Связывает последствия.</span></h2><p>Изменение в модели, поставке или графике не теряется в переписках и таблицах. AXMA сопоставляет данные, находит зависимые элементы и сообщает о риске нужным людям.</p></div>
+      </section>
+
+      <section class="platform" id="platform"><div class="container">
+        <div class="section-heading"><p class="section-number">02 / Платформа</p><h2>Три системы.<br>Один контур управления.</h2></div>
+        <div class="system-cards">
+          <article class="system-card model"><p class="card-index">01</p><div class="card-icon cube">◇</div><h3>BIM</h3><p>Модель, элементы, объёмы и версии проектных решений.</p><span>Геометрия объекта</span></article>
+          <article class="system-card crm"><p class="card-index">02</p><div class="card-icon">◌</div><h3>CRM</h3><p>Заказчики, обращения, карточки проектов и история взаимодействия.</p><span>Работа с клиентами</span></article>
+          <article class="system-card erp"><p class="card-index">03</p><div class="card-icon boxes">▦</div><h3>ERP</h3><p>Поставки, номенклатура и фактические данные по ресурсам.</p><span>Материалы и снабжение</span></article>
+          <div class="sync"><span>AXMA</span><i></i><i></i><i></i><small>синхронизация</small></div>
+        </div><div class="integration-strip"><span class="integration-mark">↔</span><p><b>Bitrix24, корпоративный чат и документы — в одной среде.</b> AXMA связывает переписку, файлы и события проекта, сохраняя контекст каждого решения.</p></div>
+      </div></section>
+
+      <section class="case container" id="how">
+        <div class="case-top"><p class="section-number">03 / AXMA в действии</p><p class="case-note">Система отслеживает изменения между контурами и превращает их в понятные действия.</p></div>
+        <h2>Задержали поставку ферм —<br><span>команда узнает до срыва сроков.</span></h2>
+        <div class="flow">
+          <div class="flow-step"><b>01</b><div class="mini-icon">▦</div><h3>ERP</h3><p>Инженер МТО меняет дату поставки.</p></div>
+          <div class="flow-line"><i></i><span>сопоставление данных</span></div>
+          <div class="flow-step active"><b>02</b><div class="mini-icon">⌘</div><h3>AXMA</h3><p>Находит фермы в модели и связанные работы в КСГ.</p></div>
+          <div class="flow-line"><i></i><span>оценка резерва</span></div>
+          <div class="flow-step danger"><b>03</b><div class="mini-icon">!</div><h3>Алерт</h3><p>Нужные участники получают push-уведомление о риске.</p></div>
+        </div>
+      </section>
+
+      <section class="roles" id="roles"><div class="container"><div class="roles-heading"><p class="section-number">04 / Для каждого — своё главное</p><h2>Одна платформа.<br>Разные точки зрения.</h2></div><div class="role-tabs" role="tablist"><button class="role-tab active" data-role="site" role="tab" aria-selected="true">На объекте</button><button class="role-tab" data-role="office" role="tab" aria-selected="false">В проектном офисе</button><button class="role-tab" data-role="client" role="tab" aria-selected="false">У заказчика</button></div>
+        <div class="role-showcase">
+          <div class="role-copy"><p class="role-label" id="role-label">Прораб / подрядчик</p><h3 id="role-title">3D-модель в телефоне. Без специального ПО.</h3><p id="role-text">На объекте можно открыть нужный элемент, понять сложную конструкцию и сразу задать вопрос по нему проектировщику.</p><div class="role-points" id="role-points"><span>3D в браузере</span><span>Чат по элементу</span><span>Push-уведомления</span></div></div>
+          <div class="device" id="role-visual"><div class="phone"><div class="phone-bar"></div><div class="phone-model"><img src="images/axma-house-hero.png" alt="BIM-модель дома"><span class="selected-element"></span><span class="element-label">Окно W-04</span></div><div class="phone-chat"><span class="avatar">АП</span><p><b>Алексей, прораб</b><br>Окно W-04: уточните отметку проёма</p><time>сейчас</time></div></div><div class="floating-note"><i></i> Сообщение привязано<br>к элементу модели</div></div>
+        </div>
+      </div></section>
+
+      <section class="element-chat container"><div class="chat-model"><img class="chat-house" src="images/axma-house-hero.png" alt="BIM-модель дома с выбранным элементом"><span class="point"></span><span class="point p2"></span><span class="point p3"></span><p>Выберите элемент в модели</p></div><div class="chat-copy"><p class="section-number">05 / Контекст вместо «сломанного телефона»</p><h2>Обсуждайте не «где-то на объекте», а у конкретного элемента.</h2><p>Сообщение о проёме, пилоне или ферме сохраняется прямо в контексте модели. У вопроса всегда есть точный адрес, история и ответственный.</p><a href="#demo" class="text-link">Запросить демонстрацию <span>↗</span></a></div></section>
+
+      <section class="cta" id="demo"><div class="container"><div><p class="eyebrow"><i></i> AXMA для вашей стройки</p><h2>Пора собрать<br>стройку воедино.</h2></div><form class="demo-form"><label>Рабочий e-mail<input type="email" placeholder="name@company.ru" required></label><button class="button" type="submit">Запросить демо <span>↗</span></button><small>Нажимая кнопку, вы соглашаетесь на обработку данных.</small></form></div></section>
+    </main>
+    <footer class="footer container"><a class="logo" href="#top">AXMA<span>·</span></a><p>Единая цифровая среда строительства</p><p>© 2026 AXMA</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
